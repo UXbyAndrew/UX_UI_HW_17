@@ -53,6 +53,8 @@ h1 {
     vertical-align: top;
     font-family: chivo;
   }
+  
+  /* Top nav list items: */
   #floatingMenu {
     clear: both;
     position: fixed;
@@ -60,7 +62,6 @@ h1 {
     background-color: #ffffff;
     top: 0;
   }
-  /* Top nav list items: */
   nav {
     position: relative;
     left: 0px;
@@ -181,9 +182,6 @@ ul {
         width: 70%;
     }
 
-
-
-
 .funFacts {
     width: 25%;
     flex-grow: 2;
@@ -195,6 +193,132 @@ ul {
     flex-grow: 2;
     font-size: 15px;
 }
+
+/*Skills Section*/
+.myWrapper img {
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    width: 70px;
+}
+
+.myWrapper p {
+    margin-bottom: 10px;
+    margin-top: 0;
+    width: 168px;
+}
+.margin-150px {
+    margin-top: 100px;
+    display: block;
+  }
+  .container {
+    display: block;
+    max-width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    flex: 1;
+    text-align: left;
+  }
+  .myWrapper {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-bottom: 30px;
+    justify-items: stretch;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* might need to specify 2 rows */
+    grid-template-rows: 100px 100px;
+  }
+  
+  #skillsTitle {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 50px;
+    font-weight: 900;
+    margin: 20px;
+  }
+  .mySkillsWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 200ms ease;
+  }
+  .mySkillsWrapper:hover {
+    transform: scale(1.1);
+  }
+  .tool-brand-image {
+    max-width: 100%;
+    margin-right: 10px;
+  }
+  .toolTitle {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    /* modify font family */
+    font-family: yourkten-slab-normal, sans-serif;
+    color: black;
+    /* modify font size */
+    font-size: 24px;
+    line-height: 44px;
+    font-weight: 700;
+  }
+  .toolSubhead {
+    /* modify font family */
+    font-family: 'open sans', sans-serif;
+    /* modify font size */
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    color: black;
+  }
+  .skills {
+    background-color: rgba(0, 147, 255, .1);
+    margin-top: 150px;
+  }
+  
+  @media only screen and (max-width: 1070px) {
+    .myWrapper {
+      grid-template-rows: 72px 72px 72px 72px;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 30px;
+      grid-row-gap: 30px;
+      /*justify-content: center;*/
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Footer: */
 .footerContainer {
     height: 256px;
