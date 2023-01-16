@@ -181,7 +181,8 @@ ul {
         padding-right: 20px;
         padding-top: 10px;
         padding-bottom: 10px;
-        width: 90%;
+        width: 45%;
+        margin-left: 10vw;
     }
 
 .funFacts {
@@ -456,26 +457,26 @@ img {
 }
 
 
-@media screen and (max-width: 875px) 
+@media screen and (max-width: 675px) 
 {
   .myWorks {
     font-size: 40px;
     line-height: 40px;
   }
 }
-@media screen and (max-width: 991px) 
+@media screen and (max-width: 675px) 
 {
   .projectWrapper {
     max-width: 100%;
   }
 }
-@media screen and (max-width: 875px) 
+@media screen and (max-width: 675px) 
 {
   .projectGrid {
     grid-template-columns: 1fr;
   }
 }
-@media screen and (max-width: 991px) 
+@media screen and (max-width: 675px) 
 {
   .projectGrid {
     grid-column-gap: 30px;
@@ -484,7 +485,32 @@ img {
 }
 
  
+/* test */
+@media screen and (max-width: 640px) 
+{
+  .mainBody {
+    width: 100%;
+    letter-spacing: 0.5px;
+  }
+  .aboutMe {
+    display: block;
+  }
+  .funFacts {
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 24px;
+}
 
+.spareTime {
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 24px;
+}
+.currentWork {
+    width: 45%;
+    margin-top: 24px;
+}
+}
 
 
 
