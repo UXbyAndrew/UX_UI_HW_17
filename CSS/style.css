@@ -375,6 +375,7 @@ ul {
     /* modify font size */
     font-size: 14px;
     letter-spacing: -0.5px;
+    line-height: 16px;
     color: black;
   }
   .skills {
