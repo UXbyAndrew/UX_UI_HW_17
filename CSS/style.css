@@ -96,7 +96,7 @@ h1 {
     margin-right: auto;
     display: inline-block;
     height: 116px;
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
     position: absolute;
     top: 0px;
   }
