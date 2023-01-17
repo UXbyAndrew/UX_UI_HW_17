@@ -299,7 +299,8 @@ ul {
     display: block;
     text-align: center;
     vertical-align: middle;
-    width: 70px;
+    max-width: 70px;
+    min-width: 10%;
 }
 
 .myWrapper p {
