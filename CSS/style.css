@@ -60,7 +60,7 @@ h1 {
     clear: both;
     position: fixed;
     width: 100%;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, .9);
     top: 0;
   }
   nav {
@@ -246,6 +246,7 @@ a:active {
     padding-right: 10vw;
     width: 100%;
     display: inline-block;
+    margin-top: 116px;
 }
 
 /* About Section: */
