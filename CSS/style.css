@@ -329,7 +329,8 @@ ul {
     margin-right: 0px;
     margin-left: 0px;
     padding-bottom: 30px;
-    justify-items: stretch;
+    justify-items: center;
+    align-items: center;
     grid-auto-columns: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 20px;
@@ -347,8 +348,9 @@ ul {
   }
   .mySkillsWrapper {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
+    width: 200px;
     transition: transform 200ms ease;
   }
   .mySkillsWrapper:hover {
@@ -389,7 +391,7 @@ ul {
       grid-template-columns: 1fr 1fr;
       grid-column-gap: 30px;
       grid-row-gap: 30px;
-      /*justify-content: center;*/
+      justify-content: left;
     }
   }
 
