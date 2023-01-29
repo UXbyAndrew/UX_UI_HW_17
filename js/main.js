@@ -19,10 +19,10 @@ window.onload = function () {
     $("#checkbox").change(function() {
          console.log("change")
         if (this.checked) {
-          $("#theme").attr("href", "css/dark_css.css")
+          $("#theme").attr("href", "CSS/dark_css.css")
         }
         else {
-          $("#theme").attr("href", "css/blank.css")
+          $("#theme").attr("href", "CSS/blank.css")
         }
       });
 
