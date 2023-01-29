@@ -16,3 +16,14 @@ window.onload = function () {
         mobile_menu.classList.toggle('is-active');
     })
 
+    $("#checkbox").change(function() {
+         console.log("change")
+        if (this.checked) {
+          $("#theme").attr("href", "css/dark_css.css")
+        }
+        else {
+          $("#theme").attr("href", "css/blank.css")
+        }
+      });
+
+      console.log($("#checkbox"))

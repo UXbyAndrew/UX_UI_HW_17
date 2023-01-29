@@ -3,7 +3,9 @@
 
 <head>
     <!--CSS Sheet-->
-    <link href="CSS\style.css" rel="stylesheet" type="text/css">
+    <link href="CSS/style.css" rel="stylesheet" type="text/css">
+    <link href="CSS/blank.css" rel="stylesheet" id="theme" type="text/css">
+    
     <!--Font Links-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,6 +45,11 @@
                 </li>
             </ul>
 
+
+           <!-- <div class="theme_button">
+                <div class="w3-button themeChange light">Light</div>
+                <div class="w3-button themeChange dark">Dark</div>
+              </div>-->
             
 
             <div class="inline-block logo">
@@ -67,16 +74,29 @@
 </section>
 
 <!--Hero Image Section-->
+
+
+
 <section>
+<div>
+    <img src="Images\ProfilePic.png" class="heroImg">
+</div>
+<div class="theme-switch-wrapper">
+    <label class="theme-switch" for="checkbox">
+        <input type="checkbox" id="checkbox" />
+        <div class="slider round"></div>
+    </label>
     <div>
-        <img src="Images\ProfilePic.png" class="heroImg">
+        <em>Dark Mode!</em>
     </div>
+</div>
 
 </section>
 
 <br>
 <br>
 <br>
+
 
 <!--Main Body Section-->
 <section>
@@ -337,11 +357,15 @@
             </div>
 
             <div class="final">
-                <h3 style="letter-spacing: 2px; font-weight: 400;">POWERED BY COFFEE & DETERMINATION</h3>
-                <h3 style="letter-spacing: 2px; font-weight: 400;">© 2022 ANDREW ARQUINES</h3>
+                <h3 style="letter-spacing: 2px; font-weight: 400; color: #ebf1f1">POWERED BY COFFEE & DETERMINATION</h3>
+                <h3 style="letter-spacing: 2px; font-weight: 400; color: #ebf1f1">© 2022 ANDREW ARQUINES</h3>
             </div>
         </div>
 
     </section>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
 <script src="js/main.js"></script>
 </html>
