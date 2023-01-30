@@ -333,6 +333,7 @@ a:hover {
     color: #0095FF;
     text-decoration: none;
     font-weight: 700;
+    text-decoration: underline;
 }
 a:active {
     color: black;
@@ -414,7 +415,7 @@ ul {
     margin-top: 100px;
     display: block;
   }
-  .container {
+  .containerSkill {
     display: block;
     max-width: 100%;
     margin-right: 0px;
@@ -498,7 +499,8 @@ ul {
 
 /*My Works Section*/
 * {
-  box-sizing: border-box
+  box-sizing: border-box;
+  font-family: Chivo, sans-serif;
 }
 
 div {
@@ -509,7 +511,7 @@ div {
   padding: 60px 5% 100px;
   background-color: #ffffff;
 }
-.container {
+.sectionCaseStudies .container {
   display: block;
   max-width: 100%;
   margin-right: 0px;
@@ -751,4 +753,195 @@ img {
 .final {
     display: flex;
     justify-content: space-between;
+}
+
+/*Jumbotron Intro*/
+
+.jumbotron {
+  padding-left: 10vw;
+  background-image: url(/Images/MRL2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: calc(85vh);
+  max-height: 1240px;
+  margin-top: 116px;
+  color: white;
+  font-family: chivo, sans-serif;
+}
+
+.jumbotron h1 {
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.jumboContainer {
+  padding-right: 10vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 116px;
+ /* display: block;
+  max-width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+  text-align: left;*/
+}
+
+.introText {
+  padding-top: 350px;
+  padding-bottom: 25px;
+}
+
+.lead {
+  max-width: 450px;
+  font-weight: 100;
+}
+
+/* Details Container */
+
+.infoContainer {
+  margin-top: 16px;
+  border: 1px solid #C8102E;
+  font-family: chivo, sans-serif;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.infoContainer .col {
+  border-right: 1px solid #C8102E;
+  padding-right: 17px;
+  padding-left: 17px;
+  
+}
+
+.titleRow {
+color: #C8102E;
+font-weight: 700;
+padding-top: 20px;
+}
+
+.infoRow {
+  padding-bottom: 20px;
+
+}
+
+.lastCol {
+  border-right: 0 !important;
+}
+
+/* Problem Section */
+ .caseBody {
+  margin-top: 64px;
+    margin-left: 75px;
+    margin-right: 75px;
+    font-family: chivo, sans-serif;
+
+ }
+
+ .problemSection h3 {
+
+ }
+
+ .my-4 {
+  margin-top: 4.5rem !important;
+  margin-bottom: 4.5rem !important;
+ }
+
+ /*Carousel indicators */
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-indicators li {
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 60px;
+  height: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: red;
+  background-clip: padding-box;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .5;
+  transition: opacity .6s ease;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: -50px;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  list-style: none;
+}
+
+.carousel img {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  max-height: 400px;
+}
+
+.carousel {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+
+.caseBody .quote {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+
+.interviewImg {
+  display:block;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+.protoLink {
+  text-align: center;
+}
+
+.closing h1 {
+  text-align: left;
+  line-height: 55px;
+  max-width: 1000px;
+  margin-right: auto;
+}
+
+.scrollup {
+  float: right;
+  color: #0094ff !important;
+  padding-right: 30px;
+}
+
+.scrollup a:link {
+  color: #0094ff;
+}
+
+.moreProjects {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
 }
